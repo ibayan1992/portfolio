@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<title>my project portfolio</title>
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ 	<link href="css/edit.css" rel="stylesheet">
+	<link  href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+	<header class="header">
+    <div class="inner">
+       <img src="img/purple_logo.png" class="logo" alt="purple art logo">
+			 <h1 class="logo_name">urple Art </h1>
+			 <a id="menu" class="header__menu">
+	       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+		       <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+	       </svg>
+      </a>
+			<nav id=drawer class="nav">
+				<ul class="menu_list">
+					<li class="item">
+						<a href="portfolio.html" class="anchor"> About Me  </a>
+					</li>
+					<li class="item">
+						<a href="portfolio.html" class="anchor"> Products  </a>
+					</li>
+					<li class="item">
+						<a href="portfolio.html" class="anchor"> Contact Me  </a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+  </header>
+	<div class="divider"></div>
+	<main>
+		<section class="banner">
+			<article class="in_banner">
+		             <h2 class="head2"> Mix of Web Development and Graphic Design </h2>
+		             <p><strong>Purple Art </strong> is blog and service provider about multifields in graphic and web analysis, design and development.</p>
+      </article>
+		</section>
+			<div class="divider"></div>
+    <section class="products">
+			<h3 class=head3> WHAT I HAVE?</h3>
+      <div class="products_menu">
+				<article class=service>
+					<img src="img/infographic.png" class="icon" alt="infographic">
+			  	<h5> INFOGRAPHIC DESIGN </h5>
+			  	<p> Make attention by Less words and Meaningful icons </p>
+	  		</article >
+
+				<article class=service>
+					<img src="img/motion.png" class="icon" alt="motion graphic">
+			  	<h5> MOTION GRAPHIC </h5>
+			  	<p> Moving your elements to provide the idea clearly </p>
+	  		</article>
+
+			 	<article class=service>
+					<img src="img/e-ads.png" class="icon" alt="electronic ads">
+			   	<h5> E-ADS DESIGN </h5>
+			   	<p> The best way to attract customers to your advertise </p>
+			 	</article>
+
+		   	<article class=service>
+					<img src="img/web-design.png" class="icon" alt="web design">
+		    	<h5> WEB DESIGN </h5>
+			  	<p> Just what is the final apearing for your web </p>
+				</article>
+
+			  <article class=service>
+					<img src="img/web-development.png" class="icon" alt="web development">
+	      	<h5> WEB DEVELOPMENT </h5>
+		    	<p> Make your website fresh  and go ahead </p>
+		    </article>
+	  	</div>
+		</section>
+	</main>
+	<div class="divider"></div>
+	<footer>
+			<img src=img/twitter.png class=social_media alt="twitter">
+			<img src=img/instagram.png class=social_media alt="instagram">
+			<img src=img/linkedin.png class=social_media alt="linkedin">
+	</footer>
+	<script>
+		/*
+		 * Open the drawer when the menu ison is clicked.
+		 */
+		var menu = document.querySelector('#menu');
+		var main = document.querySelector('main');
+		var drawer = document.querySelector('nav');
+
+		menu.addEventListener('click', function(e) {
+			drawer.classList.toggle('open');
+			e.stopPropagation();
+		});
+		main.addEventListener('click', function() {
+			drawer.classList.remove('open');
+		});
+
+	</script>
+</body>
+</html>

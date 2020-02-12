@@ -1,0 +1,155 @@
+html, body, main{
+  width: 100%;
+}
+
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+.divider{
+background-color: #5FFFB6;
+  width: 100%;
+  height: 5px;
+
+}
+
+.header{
+  background-color: #8563C6;
+  font-family: sans-serif;
+  width: 100%;
+height: 15%;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: -10px;
+}
+
+.inner{
+  width: 100%;
+  display: inline;
+}
+
+.logo{
+ width:100px;
+ height: 100px;
+ float: left;
+ margin-left: 15px;
+ margin-right: -20px;
+
+}
+
+.logo_name {
+padding-top: 10px;
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+}
+
+.item{
+  list-style-type: none;
+  display:inline ;
+  padding-right: 15px;
+  margin-right: 10px;
+
+
+}
+.anchor{
+  text-decoration: none;
+  color: white;
+
+}
+
+.menu_list{
+  margin-top: -50px;
+  padding: 0;
+  float: right;
+  text-decoration-color: grey;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #5FFFB6;
+}
+.banner{
+  width:100%;
+  background-image: url("../../portfolio/img/banner.jpg");
+  background-size: cover;
+  height: 500px;
+
+}
+.in_banner {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  height: 73.4%;
+  width: 100%;
+  color: #fff;
+  padding: 6em 4em;
+}
+
+.head2{
+  font-size: 50px;
+  position:absolute;
+
+}
+.in_banner p{
+  margin-top: 12em;
+}
+.head3{
+  font-size: 30px;
+  color:white;
+
+}
+.products{
+  padding:30px 10px  ;
+  background-color: #3A2F54;
+  text-align: center;
+
+
+}
+.products_menu{
+  width: 100%;
+  font-size: 30px;
+  display:inline-flex;
+  flex-wrap: wrap;
+  color: #5FFFB6;
+  padding:10px 0px;
+  margin-top: -10px;
+  justify-content: center
+}
+.service{
+  padding: 20px 60px;
+  text-align: center;
+  width:160px;
+  height: 200px;
+
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+margin-bottom: -40px;
+}
+.service p{
+  margin-top: -40px;
+  font-size: 16px;
+  color: white;
+
+}
+footer{
+  background-color: #DFC7F2;
+  font-family: sans-serif;
+  width: 100%;
+  height: 12%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: -10px;
+  text-align: center;
+
+}
+
+.social_media{
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+}
